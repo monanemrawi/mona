@@ -1,7 +1,12 @@
-board = np.array(["*","*","*","*","*","*","*","*","*"]) 
-win_commbinations = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]])
+tic-tac- player vs player VERY beginner code
 
-for z in board:
+
+
+
+ board = np.array(["*","*","*","*","*","*","*","*","*"]) 
+ win_commbinations = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]])
+
+  for z in board:
     print("player 1 choose where to place a cross, to place your move choose a number in between 1-9 ")
     print(board[:3])
     print(board[3:6])
